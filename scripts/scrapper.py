@@ -9,8 +9,8 @@ print(data_folder)
 
 
 
-downloaded_zilla_ids = [9, 49, 17, 35, 24, 10, 42, 25, 52, 56, 8, 13, 28, 36, 45, 26, 4, 37, 44, 19,55,20,29,53,31,54,21,48,15,40,18,5,33,6,60,14,27,1,2,41,7,12,3]
-not_downloaded_zilla_ids = [19]
+downloaded_zilla_ids = []
+not_downloaded_zilla_ids = []
 
 
 with sync_playwright() as p:
@@ -42,8 +42,7 @@ with sync_playwright() as p:
         zilla_value = zilla.get_attribute("value")
         if not zilla_value:   # যদি value না থাকে
             continue 
-        if  int(zilla_value) not in not_downloaded_zilla_ids:
-            continue 
+        
         
         page.select_option("#zilla_id", value=zilla_value)
         page.wait_for_timeout(2000)
