@@ -88,6 +88,10 @@ It is not intended for official, political, or commercial use.
 
 ---
 
-## 📌 Author
+## 👤 Author
+
+**Niaz Morshed** 
+*Software Developer (.Net, SQL, ABAP)*
+*Data Engineering & Analytics Enthusiast*
 
 BD 2026 Election Data Analysis Project  
