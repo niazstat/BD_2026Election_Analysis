@@ -1,4 +1,4 @@
-# 🗳️ BD 2026 Election Data Collection & Analysis
+# 🗳️ Bangladesh 2026 Election Data Collection & Analysis
 
 ## 📌 Project Objective
 
@@ -26,8 +26,7 @@ The goal is to build a structured dataset and perform meaningful election analys
 - Jupyter Notebook
 - Pandas
 - NumPy
-- Data Cleaning Techniques
-- Data Visualization (if applicable)
+- Matplotlib
 
 ---
 
